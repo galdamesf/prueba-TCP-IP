@@ -1,4 +1,4 @@
-# Direccionamiento IP: IPv4 vs IPv6
+# 4. Direccionamiento IP: IPv4 vs IPv6
 ¿Qué es una dirección IP?
 Una dirección IP (Internet Protocol) es un identificador numérico único que se asigna a cada dispositivo conectado a una red que utiliza el protocolo de Internet. Funciona como una "dirección postal" digital que permite que los datos encuentren su camino hacia el dispositivo correcto en la red.
 Estructura básica de una dirección IP
@@ -61,7 +61,7 @@ La transición hacia IPv6 es inevitable debido al agotamiento de direcciones IPv
 Tabla comparativa rápida
 CaracterísticaIPv4IPv6Longitud32 bits128 bitsFormatoDecimal con puntosHexadecimal con dos puntosDirecciones disponibles~4.3 mil millones~340 undecillonesSeguridadOpcionalIntegradaConfiguraciónManual/DHCPAutomáticaNATRequeridoNo necesario
 
-# 🌐 Puertos y Protocolos Comunes para Desarrolladores Web
+# 5. 🌐 Puertos y Protocolos Comunes para Desarrolladores Web
 ¿Qué es un puerto?
 Un puerto es un punto de conexión lógico que permite a los programas de computadora comunicarse entre sí a través de una red. En el contexto de desarrollo web, los puertos actúan como "puertas" específicas por las cuales los servicios y aplicaciones pueden enviar y recibir datos.
 Los puertos se identifican mediante números del 0 al 65535, donde:
