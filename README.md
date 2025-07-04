@@ -1,3 +1,50 @@
+# 🌐 Protocolo TCP/IP
+
+# 1. ¿Qué es el protocolo TCP/IP y por qué es importante?**
+
+El protocolo TCP/IP, que significa Transmission Control Protocol/Internet Protocol, es un conjunto de reglas que permiten la comunicación entre dispositivos en una red. Fue desarrollado en la década de 1970 por Vint Cerf y Bob Kahn, con el propósito de crear un sistema de comunicación robusto y flexible que pudiera soportar la interconexión de múltiples redes.
+
+### **Breve historia y propósito:**
+
+* **DARPA y ARPANET:** El desarrollo de TCP/IP comenzó en el contexto del proyecto ARPANET, financiado por DARPA (Agencia de Proyectos de Investigación Avanzada de Defensa). El objetivo era crear una red de computadoras que pudiera resistir interrupciones y fallos.
+
+* **División en TCP e IP:** Inicialmente, TCP e IP eran un solo protocolo, pero se dividieron en dos para mejorar la eficiencia y la flexibilidad. TCP se encarga de la transmisión fiable de datos, mientras que IP se encarga del enrutamiento de paquetes a través de la red.
+
+* **Adopción global:** En 1983, TCP/IP se convirtió en el estándar de comunicación en ARPANET, y eventualmente se adoptó como el estándar para Internet, reemplazando a otros protocolos.
+
+### **Su rol en el funcionamiento de Internet:**
+
+TCP/IP es fundamental para el funcionamiento de Internet porque proporciona un marco para la comunicación entre dispositivos en redes diferentes. Permite que los datos se envíen de manera fiable y eficiente, independientemente de la infraestructura subyacente. Su capacidad para manejar la fragmentación y reensamblaje de paquetes, así como la detección y corrección de errores, asegura que la información llegue a su destino de manera integral y sin alteraciones.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# 2. Modelo TCP/IP vs Modelo OSI**
+
+### **Comparación de capas:**
+
+* **Modelo OSI (Open Systems Interconnection):** Este modelo, desarrollado por la ISO, tiene siete capas: Física, Enlace de Datos, Red, Transporte, Sesión, Presentación y Aplicación. Es un modelo teórico que describe cómo los datos se transmiten a través de una red.
+
+* **Modelo TCP/IP:** Este modelo tiene cuatro capas: Enlace de Datos, Internet, Transporte y Aplicación. Es más práctico y refleja cómo realmente se implementan las redes.
+
+#### **Tabla Comparativa:**
+
+| Modelo OSI 		| Modelo TCP/IP |
+|-----------------	|---------------|
+| Aplicación 		| Aplicación |
+| Presentación 		| |
+| Sesión 			| |
+| Transporte 		| Transporte |
+| Red | Internet 	|
+| Enlace de Datos 	| Enlace de Datos |
+| Física 			| |
+
+### **¿Por qué usamos TCP/IP en la web?**
+
+TCP/IP es el protocolo predominante en la web porque es más práctico y eficiente. Su diseño permite una implementación más sencilla y directa, lo que facilita la interoperabilidad entre diferentes sistemas y dispositivos. Además, TCP/IP ha evolucionado con el tiempo para adaptarse a las necesidades cambiantes de la red, como la expansión de Internet y el aumento del tráfico. Su robustez y flexibilidad lo hacen ideal para manejar la complejidad y la escala de la red global.
+
+
 # 4. Direccionamiento IP: IPv4 vs IPv6
 ¿Qué es una dirección IP?
 Una dirección IP (Internet Protocol) es un identificador numérico único que se asigna a cada dispositivo conectado a una red que utiliza el protocolo de Internet. Funciona como una "dirección postal" digital que permite que los datos encuentren su camino hacia el dispositivo correcto en la red.
