@@ -44,6 +44,54 @@ TCP/IP es fundamental para el funcionamiento de Internet porque proporciona un m
 
 TCP/IP es el protocolo predominante en la web porque es más práctico y eficiente. Su diseño permite una implementación más sencilla y directa, lo que facilita la interoperabilidad entre diferentes sistemas y dispositivos. Además, TCP/IP ha evolucionado con el tiempo para adaptarse a las necesidades cambiantes de la red, como la expansión de Internet y el aumento del tráfico. Su robustez y flexibilidad lo hacen ideal para manejar la complejidad y la escala de la red global.
 
+# 3. Las 4 Capas del Modelo TCP/IP
+
+El modelo TCP/IP organiza las comunicaciones de red en 4 capas que trabajan juntas para que los datos viajen desde tu dispositivo hasta cualquier lugar del mundo.
+
+## Capa de Aplicación
+
+Es la capa más cercana al usuario, donde funcionan los programas que usas diariamente:
+
+- **HTTP/HTTPS**: Para navegar por sitios web
+- **DNS**: Convierte nombres como "google.com" en direcciones IP
+- **FTP**: Para transferir archivos
+- **SMTP**: Para enviar correos electrónicos
+
+*Piénsalo como las aplicaciones en tu teléfono que necesitan internet.*
+
+## Capa de Transporte
+
+Se encarga de cómo se envían los datos entre dispositivos:
+
+- **TCP**: Conexión confiable, garantiza que todos los datos lleguen completos y en orden (como enviar una carta certificada)
+- **UDP**: Conexión rápida pero sin garantías, ideal para video en vivo o juegos online (como gritar un mensaje)
+
+*Es como decidir si envías algo por correo certificado o simplemente lo lanzas por la ventana.*
+
+## Capa de Internet
+
+El "GPS" de internet, se encarga de encontrar el camino:
+
+- **IP (Internet Protocol)**: Define las direcciones únicas de cada dispositivo
+- **Routing**: Los routers deciden qué camino tomar para llegar al destino
+- **Direcciones IP**: Como 192.168.1.1 o 8.8.8.8
+
+*Es como el sistema postal que sabe cómo llegar a cualquier dirección del mundo.*
+
+## Capa de Acceso a Red
+
+La conexión física real entre dispositivos:
+
+- **Ethernet**: Cables de red tradicionales
+- **Wi-Fi**: Conexión inalámbrica
+- **Bluetooth**: Para distancias cortas
+- Se encarga de los bits y bytes que viajan por cables o por el aire
+
+*Es literalmente los cables, antenas y señales que transportan la información.*
+
+## Ejemplo Práctico
+
+Cuando abres Instagram, la app (Capa de Aplicación) usa TCP (Capa de Transporte) para conectarse de forma confiable, encuentra la dirección IP del servidor de Instagram (Capa de Internet), y envía los datos a través de tu Wi-Fi (Capa de Acceso a Red).
 
 # 4. Direccionamiento IP: IPv4 vs IPv6
 ¿Qué es una dirección IP?
